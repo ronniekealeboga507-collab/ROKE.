@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrances – ROKE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="cart.js"></script>
+
+    <!-- HEADER -->
+    <header>
+        <span class="header-logo">FRAGRANCES</span>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="about us.html">About Us</a>
+            <a href="cart.html" class="cart-link">🛒<span class="cart-count" style="display:none">0</span></a>
+        </nav>
+    </header>
+
+    <!-- PAGE TITLE -->
+    <div class="page-title-block">
+        <h1>Fragrances for Him</h1>
+        <p>Defined by presence, remembered by scent</p>
+    </div>
+
+    <!-- PRODUCTS -->
+    <main>
+        <section id="fragrances" class="fragrances-section" role="tabpanel">
+            <div class="fragrances-grid">
+
+                <!-- Card 1 -->
+                <div class="fragrance-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="yves_saint_laurent.jpg" alt="Yves Saint Laurent">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Yves Saint Laurent</p>
+                        <p class="card-desc">A luxurious and captivating fragrance for every occasion.</p>
+                        <p class="card-price">BWP 1,200.00</p>
+                        <button class="card-btn" data-name="Yves Saint Laurent" data-price="1200" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="fragrance-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="strongerwithyou.jpg" alt="Stronger With You Intensely">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Stronger With You Intensely</p>
+                        <p class="card-desc">A bold and seductive fragrance for the modern man.</p>
+                        <p class="card-price">BWP 900.00</p>
+                        <button class="card-btn" data-name="Stronger With You Intensely" data-price="900" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="fragrance-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="sauvagedior.jpg" alt="Sauvage Dior">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Sauvage Dior</p>
+                        <p class="card-desc">A fresh and vibrant fragrance for the modern man.</p>
+                        <p class="card-price">BWP 700.00</p>
+                        <button class="card-btn" data-name="Sauvage Dior" data-price="700" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="fragrance-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="club_de_nuit.jpg" alt="Club de Nuit">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Club de Nuit</p>
+                        <p class="card-desc">A mysterious and captivating fragrance for the modern man.</p>
+                        <p class="card-price">BWP 1,000.00</p>
+                        <button class="card-btn" data-name="Club de Nuit" data-price="1000" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ROKE. All rights reserved</p>
+    </footer>
+
+</body>
+</html>

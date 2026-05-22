@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footwear – ROKE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="cart.js"></script>
+
+    <!-- HEADER -->
+    <header>
+        <span class="header-logo">FOOTWEAR</span>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="about us.html">About Us</a>
+            <a href="cart.html" class="cart-link">🛒<span class="cart-count" style="display:none">0</span></a>
+        </nav>
+    </header>
+
+    <!-- PAGE TITLE -->
+    <div class="page-title-block">
+        <h1>Footwear for Him</h1>
+        <p>Step into style and comfort with our curated collection of men's footwear.</p>
+    </div>
+
+    <!-- PRODUCTS -->
+    <main>
+        <section id="footwear" class="footwear-section" role="tabpanel">
+            <div class="footwear-grid">
+
+                <!-- Card 1 -->
+                <div class="footwear-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="formalshoes.jpg" alt="Formal Shoes">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Formal Shoes</p>
+                        <p class="card-desc">Elegant and comfortable footwear for formal occasions.<br><br>Sizes: 8, 9, 10</p>
+                        <p class="card-price">BWP 1,200.00</p>
+                        <button class="card-btn" data-name="Formal Shoes" data-price="1200" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="footwear-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="Jonathan D.jfif" alt="Casual Sneakers">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Casual Sneakers</p>
+                        <p class="card-desc">Comfortable and stylish sneakers for everyday wear.<br><br>Sizes: 5, 6, 7</p>
+                        <p class="card-price">BWP 800.00</p>
+                        <button class="card-btn" data-name="Casual Sneakers" data-price="800" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="footwear-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="classyshoes.jpg" alt="Classy Shoes">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">Classy Shoes</p>
+                        <p class="card-desc">Elegant footwear for a polished look.<br><br>Sizes: 2, 3, 4</p>
+                        <p class="card-price">BWP 1,000.00</p>
+                        <button class="card-btn" data-name="Classy Shoes" data-price="1000" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="footwear-card">
+                    <div class="card-img-wrap">
+                        <img class="card-img" src="ILVI Shoes and Women,Men Luxury Fashion.jfif" alt="ILVI Shoes">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-name">ILVI Shoes</p>
+                        <p class="card-desc">Luxurious footwear for the modern man.<br><br>Sizes: 1, 2, 3</p>
+                        <p class="card-price">BWP 1,000.00</p>
+                        <button class="card-btn" data-name="ILVI Shoes" data-price="1000" onclick="addToCart(this)">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ROKE. All rights reserved</p>
+    </footer>
+
+</body>
+</html>
